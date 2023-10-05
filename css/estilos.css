@@ -1,3 +1,4 @@
+/* reset inicial*/
 * {
   margin: 0;
   padding: 0;
@@ -9,12 +10,14 @@
   src: url('../assets/fonts/Poppins-LightItalic.ttf');
 }
 
+/* fuente (revisar responsive) */
 body {
   font-family: 'PoppinsItalic';
   src: url('../assets/fonts/Poppins-LightItalic.ttf');
   color: black;
 }
 
+/* color de fondo */
 .colorBg {
   background-color: black;
 }
@@ -65,11 +68,12 @@ body {
   width: 100%;
 }
 
-
+/* para ajustar la distancia de abajo de una imagen */
 .imgAjust {
   padding-bottom: 15px;
 }
 
+/* ajustes de formato en imagens de galeria */
 .containerImgGaleria {
   height: 100%;
   width: 100%;
@@ -77,9 +81,9 @@ body {
   justify-content: center;
 }
 
+/* Centra horizontalmente las imágenes */
 .carousel-inner {
   text-align: center;
-  /* Centra horizontalmente las imágenes */
 }
 
 /* Para centrar imagenes en el carrusel */
