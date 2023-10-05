@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'PoppinsItalic';
+  src: url('../assets/fonts/Poppins-LightItalic.ttf');
+}
+
+body {
+  font-family: 'PoppinsItalic';
+  src: url('../assets/fonts/Poppins-LightItalic.ttf');
+  color: black;
+}
+
+.colorBg {
+  background-color: black;
+}
+
+/* hover */
+.navbar .navbar-nav .nav-link:hover {
+  color: white;
+}
+
+.navbar .navbar-nav .nav-link {
+  color: white;
+  font-size: 1.1em;
+}
+
+@media only screen and (min-width: 992px) {
+  .navbar {
+    padding: 0;
+  }
+
+  .navbar .navbar-nav .nav-link {
+    padding: 1em 0;
+  }
+
+  .navbar .navbar-nav .nav-item {
+    margin: 0 1em;
+  }
+}
+
+.navbar .navbar-nav .nav-item {
+  position: relative;
+  align-self: flex-start;
+}
+
+.navbar .navbar-nav .nav-item::after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  background-color: white;
+  width: 0%;
+  content: "";
+  height: 4px;
+  transition: all .3s;
+}
+
+.navbar .navbar-nav .nav-item:hover::after {
+  width: 100%;
+}
+
+
+.imgAjust {
+  padding-bottom: 15px;
+}
+
+.containerImgGaleria {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  justify-content: center;
+}
+
+.carousel-inner {
+  text-align: center;
+  /* Centra horizontalmente las imágenes */
+}
+
+/* Para centrar imagenes en el carrusel */
+.carousel-item img {
+  display: inline-block;
+  /* Evita que las imágenes ocupen todo el ancho */
+  margin: 0 auto;
+  /* Centra las imágenes horizontalmente*/
+}

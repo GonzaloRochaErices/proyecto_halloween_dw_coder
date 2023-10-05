@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto | Halloween</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="icon" type="image/png" href="../assets/img/witch-1751025_640.png">
+    <script src="https://kit.fontawesome.com/cbbd236219.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header class="sticky-top">
+        <nav class="navbar navbar-expand-lg navbar-dark colorBg w-100">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html">
+                    <img src="../assets/img/whitewitch-1751025_640.png" alt="Logo" width="30" height="24"
+                        class="d-inline-block align-text-top">HALLOWEEN
+                </a>
+            </div>
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav w-100 justify-content-end">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/info.html">Info</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/galeria.html">Galeria</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <div class="">
+                <h1>Ideas para tus Halloween</h1>
+            </div>
+        </section>
+        <section>
+            <div class="">
+                <p>Aquí te ofrecemos varios recursos e ideas para este y todos tus Halloween sean los mas originales.
+                    Desde ideas de disfraces, hasta deliciosas recetas temáticas con las cuales agazajar a tu familia y
+                    amigos!</p>
+            </div>
+        </section>
+        <section class="colorBg">
+            <div class=""> <!--el carrusel se esconde cuando es vista mobile con d-none d-md-block en la clase-->
+                <div id="carouselExampleCaptions" class="carousel slide carouselContainer d-none d-md-block" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                            aria-label="Slide 4"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
+                            aria-label="Slide 5"></button>
+                    </div>
+                    <div class="carousel-inner"> <!-- las anclas son para enlazar contenido futuro -->
+                        <div class="carousel-item active">
+                            <a href="#">
+                                <img src="../assets/img/disfraces.jpg" class="d-block height: 200px width: 200px"
+                                    alt="Disfraces">
+                            </a>
+                        </div>
+                        <div class="carousel-item">
+                            <a href="#">
+                                <img src="../assets/img/maquillaje.jpg" class="d-block height: 200px width: 200px"
+                                    alt="Maquillaje">
+                            </a>
+                        </div>
+                        <div class="carousel-item">
+                            <a href="#">
+                                <img src="../assets/img/decoracion.jpg" class="d-block height: 200px width: 200px"
+                                    alt="Decoracion">
+                            </a>
+                        </div>
+                        <div class="carousel-item">
+                            <a href="#">
+                                <img src="../assets/img/comida.jpg" class="d-block height: 200px width: 200px"
+                                    alt="Recetas">
+                            </a>
+                        </div>
+                        <div class="carousel-item">
+                            <a href="#">
+                                <img src="../assets/img/muebles.jpg" class="d-block height: 200px width: 200px"
+                                    alt="Mobiliario">
+                            </a>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+
+        </section>
+        <section>
+            <div class="row"> <!-- las anclas son para enlazar contenido futuro -->
+                <div class="card-group">
+                    <div class="card">
+                        <a href="#">
+                            <img src="../assets/img/disfraces.jpg" class="card-img-top img-fluid" style="height: 200px;"
+                                alt="Disfraces">
+                            <div class="card-body">
+                                <h5 class="card-title">Disfraces</h5>
+                                <p class="card-text">Las mejores ideas para sus disfraces!</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card">
+                        <a href="#">
+                            <img src="../assets/img/maquillaje.jpg" class="card-img-top img-fluid" style="height: 200px;"
+                                alt="Maquillaje">
+                            <div class="card-body">
+                                <h5 class="card-title">Maquillaje</h5>
+                                <p class="card-text">Guías y métodos para obtener resultados terroríficos!</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card">
+                        <a href="#">
+                            <img src="../assets/img/decoracion.jpg" class="card-img-top img-fluid" style="height: 200px;"
+                                alt="Decoración">
+                            <div class="card-body">
+                                <h5 class="card-title">Decoración</h5>
+                                <p class="card-text">Desde simples calabazas talladas, hasta espantosos arboles
+                                    embrujados!
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card">
+                        <a href="#">
+                            <img src="../assets/img/comida.jpg" class="card-img-top img-fluid" style="height: 200px;"
+                                alt="Recetas">
+                            <div class="card-body">
+                                <h5 class="card-title">Recetas</h5>
+                                <p class="card-text">Deliciosas y aterradoras recetas para agazajar a tus invitados!</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card">
+                        <a href="#">
+                            <img src="../assets/img/muebles.jpg" class="card-img-top img-fluid" style="height: 200px;"
+                                alt="Mobiliario">
+                            <div class="card-body">
+                                <h5 class="card-title">Mobiliario</h5>
+                                <p class="card-text">Convierte tu hogar en un verdadero palacio del terror!</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+    </main>
+
+    <footer class="container-flex row colorBg  justify-content-between text-light">
+        <section class="col-md-2">
+            <h2>Ubicación</h2>
+            <p>Plaza de los Heroes, 5</p>
+            <p>Rancagua, Chile</p>
+        </section>
+        <section class="col-md-2">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3301.0634897269847!2d-70.74331382507572!3d-34.17029438473646!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9663433ff904ab3d%3A0xfb9f45f8f926684e!2sPlaza%20de%20Los%20H%C3%A9roes%2C%20Rancagua%2C%20O&#39;Higgins!5e0!3m2!1ses-419!2scl!4v1694388170864!5m2!1ses-419!2scl"
+                width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </section>
+        <section class="col-md-2">
+            <h2>Horario</h2>
+            <p>Lunes a Viernes de 9:00 a 19:00</p>
+            <p>Sábados de 9:00 a 15:00</p>
+        </section>
+        <section class="col-md-2">
+            <h2>Contacto</h2>
+            <p>+56911111111</p>
+            <p>halloween@gmail.com</p>
+        </section>
+        <section class="col-md-2">
+            <h2>Redes Sociales</h2>
+            <a href="https://www.whatsapp.com/" target="_blank"><i class="fab fa-whatsapp"
+                    style="font-size: 50px;"></i></a>
+            <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"
+                    style="font-size: 50px;"></i></a>
+            <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"
+                    style="font-size: 50px;"></i></a>
+        </section>
+    </footer>
+    <script src="../js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

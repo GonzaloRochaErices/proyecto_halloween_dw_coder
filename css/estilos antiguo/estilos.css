@@ -1,0 +1,200 @@
+/*fuentes*/
+@font-face {
+    font-family: 'DidactGothic-Regular';
+    src: url('../assets/fonts/DidactGothic-Regular');
+}
+
+/*reset de valores*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: grey;
+    position: sticky;
+    top: 0;
+
+    .Contenedor_Logo {
+        padding-left: 20px;
+        padding-top: 20px;
+        width: 40%;
+        display: inline-flex;
+        align-items: center;
+        .logo {
+            width: 100px;
+        }
+    }
+
+
+    .Navegacion {
+        display: inline-flex;
+        width: 58%;
+        /*text-align: right;*/
+        vertical-align: text-bottom;
+        justify-content: end;
+
+        .Lista_Navegacion {
+            list-style: none;
+            text-align: right;
+
+            .listitem {
+                display: inline-block;
+
+                .link {
+                    display: inline-block;
+                    text-decoration: none;
+                    
+                    font-size: 1.5rem;
+                    margin-right: 20px;
+                    margin-bottom: 20px;
+                    border: 1px solid gray;
+                }
+
+            }
+
+        }
+    }
+
+}
+
+
+  .link:link {
+      color: rgb(255, 255, 255);
+  }
+
+  /* link visitado */
+  .link:visited {
+      color: rgb(255, 255, 255);
+  }
+
+  /* mouse over link */
+  .link:hover {
+      color: black;
+  }
+
+  /* link seleccionado */
+ 
+ /*BORDES REDONDEADOS*/ 
+/*border-radius:20px*/
+
+.Titulo_Principal {
+    font-family: 'DidactGothic-Regular';
+    font-size: 2rem;
+    width: 100%;
+    margin: 20px auto;
+    text-align: center;
+    position: relative;
+    top: 20px;
+    bottom: 50px;
+    z-index: -1; /*Mientras mas alto el numero ENTERO, mas adelante se ubica el elemento*/
+}
+
+.Imagen_Principal {
+    width: 100vw;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.Imagen_Principal img {
+    width: 100%;
+    height: 100%;
+}
+
+.Texto_Principal {
+    width: 100%;
+    display: inline-block;
+    line-height: 2;
+    font-size: 1.5rem;
+    text-align: justify;
+}
+
+.footer {
+    color: white;
+    background-color: grey;
+}
+
+.Contenido_Footer {
+    display: inline-block;
+    width: 22%;
+    margin: 20px 1%;
+    text-align: center;
+}
+
+.Contenido_Footer iframe {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.redes {
+    font-size: 3rem;
+    color: white;
+    margin-right: 10px;
+}
+
+.Video_Info {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+
+.Texto_Galeria {
+    top: 20px;
+    bottom: 20px;
+}
+
+.Galeria {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.Contenedor_Img {
+    color: white;
+    background-color: black;
+    border: 1px solid grey;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Contenedor_Img img {
+    width: 90%;
+    height: 90%;
+    object-fit: cover;
+}
+
+.Nosotros {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.Contenedor_Img_Nosotros {
+    color: white;
+    background-color: black;
+    border: 1px solid grey;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Contenedor_Img_Nosotros img {
+    width: 90%;
+    height: 90%;
+    object-fit: cover;
+}
+
+.btnForm{
+    cursor: pointer;
+}
