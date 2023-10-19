@@ -30,6 +30,11 @@ body {
   padding-bottom: 15px;
 }
 
+/* prueba imagen de fondo con gradientes */
+.imgFondo {
+  background-image: linear-gradient(to right bottom, #d18700, #cd8600, #c88500, #c48400, #c08300, #b67311, #aa631b, #9c5520, #7b3b26, #552624, #2e171a, #000000);
+}
+
 /* hover */
 .navbar .navbar-nav .nav-link {
   color: white;
@@ -68,6 +73,17 @@ body {
 }
 .navbar .navbar-nav .nav-item:hover::after {
   width: 100%;
+}
+
+/* prueba mixin en contenedor flex */
+.contFlexRow {
+  display: flex;
+  flex-direction: row;
+}
+
+.contFlexCol {
+  display: flex;
+  flex-direction: column;
 }
 
 /* ajustes de formato en imágenes de galería */

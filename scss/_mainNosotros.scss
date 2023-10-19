@@ -1,0 +1,9 @@
+
+/* prueba mixin en contenedor flex */
+.contFlexRow{
+    @include contFlex(row);
+}
+
+.contFlexCol{
+    @include contFlex(column);
+}
