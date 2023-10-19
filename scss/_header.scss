@@ -1,0 +1,50 @@
+/* hover */
+.navbar {
+    & .navbar-nav {
+      & .nav-link {
+        &:hover {
+          color: $color-texto;
+        }
+        color: $color-texto;
+        font-size: 1.1em;
+      }
+    }
+  }
+  
+  @media only screen and (min-width: 992px) {
+    .navbar {
+      padding: 0;
+      .navbar-nav {
+        .nav-link {
+          padding: $espaciado-enlace 0;
+        }
+        .nav-item {
+          margin: 0 $espaciado-nav-item;
+        }
+      }
+    }
+  }
+  
+  .navbar {
+    & .navbar-nav {
+      & .nav-item {
+        position: relative;
+        align-self: flex-start;
+        &::after {
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          margin: 0 auto;
+          background-color: $color-texto;
+          width: 0%;
+          content: "";
+          height: 4px;
+          transition: all 0.3s;
+        }
+        &:hover::after {
+          width: 100%;
+        }
+      }
+    }
+  }

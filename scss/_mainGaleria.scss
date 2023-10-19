@@ -1,0 +1,22 @@
+/* ajustes de formato en imágenes de galería */
+.containerImgGaleria {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    justify-content: center;
+  }
+  
+  /* Centra horizontalmente las imágenes */
+  .carousel-inner {
+    text-align: center;
+  }
+  
+  /* Para centrar imágenes en el carrusel */
+  .carousel-item {
+    img {
+      display: inline-block;
+      /* Evita que las imágenes ocupen todo el ancho */
+      margin: 0 auto;
+      /* Centra las imágenes horizontalmente */
+    }
+  }

@@ -1,0 +1,23 @@
+@font-face {
+    font-family: $fuente-poppins;
+    src: url($ruta-fuente-poppins);
+  }
+    
+/* fuente (revisar responsive) */
+body {
+    font-family: $fuente-poppins;
+    src: url($ruta-fuente-poppins);
+    color: $color-texto-body;
+  }
+  
+  /* color de fondo */
+  .colorBg {
+    background-color: $color-fondo;
+  }
+  
+    
+  /* para ajustar la distancia de abajo de una imagen */
+  .imgAjust {
+    padding-bottom: 15px;
+  }
+  
