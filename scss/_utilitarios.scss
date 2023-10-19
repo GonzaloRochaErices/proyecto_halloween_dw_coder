@@ -1,18 +1,6 @@
-@font-face {
-    font-family: $fuente-poppins;
-    src: url($ruta-fuente-poppins);
-  }
-    
-/* fuente (revisar responsive) */
-body {
-    font-family: $fuente-poppins;
-    src: url($ruta-fuente-poppins);
-    color: $color-texto-body;
-  }
-  
-  /* color de fondo */
+   /* color de fondo */
   .colorBg {
-    background-color: $color-fondo;
+    background-color: map-get($mapa-colores, color-fondo);
   }
   
     

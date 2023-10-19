@@ -1,0 +1,12 @@
+@font-face {
+    font-family: $fuente-poppins;
+    src: url($ruta-fuente-poppins);
+  }
+    
+/* fuente (revisar responsive) */
+body {
+    font-family: $fuente-poppins;
+    src: url($ruta-fuente-poppins);
+    color: map-get($mapa-colores, color-texto-body);
+  }
+  
