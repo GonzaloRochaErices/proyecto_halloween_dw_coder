@@ -14,9 +14,7 @@
   /* Para centrar imágenes en el carrusel */
   .carousel-item {
     img {
-      display: inline-block;
-      /* Evita que las imágenes ocupen todo el ancho */
-      margin: 0 auto;
-      /* Centra las imágenes horizontalmente */
+      display: inline-block; /* Evita que las imágenes ocupen todo el ancho */
+      margin: 0 auto; /* Centra las imágenes horizontalmente */
     }
   }

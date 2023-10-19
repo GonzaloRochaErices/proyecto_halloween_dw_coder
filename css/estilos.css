@@ -1,6 +1,7 @@
 @charset "UTF-8";
-/* Variables de fuentes */
-/* Variables de espaciado */
+/* para agrupar variables afines */
+/* variables de fuentes */
+/* variables de espaciado */
 /* reset inicial */
 * {
   margin: 0;
@@ -84,10 +85,8 @@ body {
 
 /* Para centrar imágenes en el carrusel */
 .carousel-item img {
-  display: inline-block;
-  /* Evita que las imágenes ocupen todo el ancho */
-  margin: 0 auto;
-  /* Centra las imágenes horizontalmente */
+  display: inline-block; /* Evita que las imágenes ocupen todo el ancho */
+  margin: 0 auto; /* Centra las imágenes horizontalmente */
 }
 
 /*# sourceMappingURL=estilos.css.map */
