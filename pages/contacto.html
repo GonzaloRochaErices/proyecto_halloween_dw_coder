@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Proyecto | Halloween</title>
+    <title>Contacto | Halloween</title>
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/estilos.css">
     <link rel="icon" type="image/png" href="../assets/img/witch-1751025_640.png">
@@ -51,62 +51,47 @@
     </header>
 
     <main>
-        <section>
-            <h1>
-                Contacto
-            </h1>
-            <p>
-                Si disfrutaste nuestro contenido, dejanos algún comentario! Además, puedes elegir compartir tu correo
+        <div class="m-3">
+            <h1>Contacto</h1>
+            <p>Si disfrutaste nuestro contenido, dejanos algún comentario! Además, puedes elegir compartir tu correo
                 electronico con nosotros para enterarte de las ultimas novedades, concursos y actualizaciones en nuestro
-                sitio web!
-            </p>
-        </section>
-        <section>
-            <form>
+                sitio web!</p>
+
+            <form class="container-flex w-50">
                 <div class="mb-3">
-                    <label for="nombre">Nombre</label>
-                    <input id="nombre" name="nombre" type="text" placeholder="Ingrese Nombre" minlength="3"
-                        maxlength="50" required autofocus autocomplete="off">
+                    <label for="nombre" class="form-label">Nombre</label>
+                    <input id="nombre" name="nombre" type="text" class="form-control" placeholder="Ingresa tu nombre"
+                        required>
                 </div>
+
                 <div class="mb-3">
-                    <label for="apellido">Apellido</label>
-                    <input id="apellido" name="apellido" type="text" placeholder="Ingrese Apellido" minlength="3"
-                        maxlength="50" required autofocus autocomplete="off">
+                    <label for="apellido" class="form-label">Apellido</label>
+                    <input id="apellido" name="apellido" type="text" class="form-control"
+                        placeholder="Ingresa tu apellido" required>
+                </div>
+
+                <div class="mb-3">
+                    <label for="email" class="form-label">Correo Electrónico</label>
+                    <input id="email" name="email" type="email" class="form-control" placeholder="correo@ejemplo.com"
+                        required>
+                </div>
+
+                <div class="mb-3">
+                    <label for="comentarios" class="form-label">Comentarios</label>
+                    <textarea id="comentarios" name="comentarios" class="form-control" rows="4"
+                        placeholder="Escribe tus comentarios aquí"></textarea>
+                </div>
+
+                <div class="mb-3 text-right">
+                    <button type="reset" class="btn btn-dark">Limpiar</button>
+                    <button type="submit" class="btn btn-orange">Enviar</button>
                 </div>
             </form>
-        </section>
-        <Section>
-            <form>
-                <div class="mb-3 w-50">
-                    <label for="exampleInputEmail1" class="form-label">Correo</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-                        placeholder="correoelectronico@mail.com">
-                    <div id="emailHelp" class="form-text">Nunca compartiremos tus datos con terceros.
-                    </div>
-                </div>
-                <div class="mb-3 form-check">
-                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                    <label class="form-check-label" for="exampleCheck1">Selecciona si deseas recibir novedades sobre
-                        actualizaciones, noticias y concursos!</label>
-                </div>
-            </form>
-        </Section>
-        <section>
-            <div class="w-50 mb-3">
-                <label for="comment">Dejanos un Comentario:</label>
-                <textarea class="form-control" rows="5" id="comment" name="text"></textarea>
-            </div>
-        </section>
-        <section>
-            <div class="mb-3">
-                <button type="reset" class="btn btn-danger">Limpiar</button>
-                <button type="submit" class="btn btn-primary">Enviar</button>
-            </div>
-        </section>
+        </div>
 
     </main>
 
-    <footer class="container-flex row imgFondo justify-content-between text-light">
+    <footer class="container-flex row imgFondo justify-content-between text-light w-100">
         <section class="col-md-2">
             <h2>Ubicación</h2>
             <p>Plaza de los Heroes, 5</p>
