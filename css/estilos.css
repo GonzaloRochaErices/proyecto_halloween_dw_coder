@@ -10,13 +10,13 @@
 }
 
 @font-face {
-  font-family: "PoppinsItalic";
-  src: url("../assets/fonts/Poppins-LightItalic.ttf");
+  font-family: "JollyLodgerRegular";
+  src: url("../assets/fonts/JollyLodger-Regular.ttf");
 }
 /* fuente (revisar responsive) */
 body {
-  font-family: "PoppinsItalic";
-  src: url("../assets/fonts/Poppins-LightItalic.ttf");
+  font-family: "JollyLodgerRegular";
+  src: url("../assets/fonts/JollyLodger-Regular.ttf");
   color: black;
 }
 
