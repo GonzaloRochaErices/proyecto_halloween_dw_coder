@@ -37,8 +37,10 @@ body {
 
 /* prueba colores botones formulario */
 .btn-orange {
-  background-color: #ff7518; /* código de color para naranja */
-  color: #fff; /* texto en blanco */
+  background-color: #ff7518;
+  /* código de color para naranja */
+  color: #fff;
+  /* texto en blanco */
 }
 
 /* hover */

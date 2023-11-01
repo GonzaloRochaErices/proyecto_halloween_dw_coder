@@ -8,20 +8,19 @@
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/estilos.css">
     <link rel="icon" type="image/png" href="./assets/img/witch-1751025_640.png">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <script src="https://kit.fontawesome.com/cbbd236219.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <header class="sticky-top">
-        <nav class="navbar navbar-expand-lg navbar-dark colorBg w-100">
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark colorBg fixed-top">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">
+                <a class="navbar-brand" href="./index.html">
                     <img src="./assets/img/whitewitch-1751025_640.png"
                         alt="Logo Proyecto Halloween Bruja Volando en Escoba" width="30" height="24"
-                        class="d-inline-block align-text-top" href="#">HALLOWEEN
+                        class="d-inline-block align-text-top">HALLOWEEN
                 </a>
-            </div>
-            <div class="container-fluid">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
                     aria-label="Toggle navigation">
@@ -30,7 +29,7 @@
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul class="navbar-nav w-100 justify-content-end">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                            <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="./pages/nosotros.html">Nosotros</a>
@@ -50,27 +49,27 @@
         </nav>
     </header>
 
-    <main style="font-size: larger;">
-        <section class="">
-            <div class="m-3">
-                <h1>Todos los días son Halloween</h1>
-            </div>
+    <main style="font-size: larger; margin-top:80px">
 
-            <div class="m-3">
-                <p>
-                    Si eres un apasionado de la temporada de <span style="color: #ff7518; text-decoration: underline;">Halloween</span> y todo lo que la rodea, has
-                    encontrado tu
-                    nuevo destino en línea favorito. Este sitio web es un auténtico paraíso para todos aquellos que
-                    adoran las festividades de octubre. Desde decoraciones espeluznantes hasta recetas terroríficas
-                    y las mejores ideas para disfraces, este sitio lo tiene todo.
+        <div class="m-3">
+            <h1>Todos los días son Halloween</h1>
+            <p>
+                Si eres un apasionado de la temporada de <span
+                    style="color: #ff7518; text-decoration: underline;">Halloween</span> y todo lo que la rodea, has
+                encontrado tu
+                nuevo destino en línea favorito. Este sitio web es un auténtico paraíso para todos aquellos que
+                adoran las festividades de octubre. Desde decoraciones espeluznantes hasta recetas terroríficas
+                y las mejores ideas para disfraces, este sitio lo tiene todo.
 
-                </p>
-                <p>
-                    Te atreves a explorar nuestro sitio web y descubrir el aterrador mundo de <span
-                        style="color: #ff7518; text-decoration: underline;">Halloween</span>?
-                    Te desafiamos!!!
-                </p>
-            </div>
+            </p>
+            <p>
+                Te atreves a explorar nuestro sitio web y descubrir el aterrador mundo de <span
+                    style="color: #ff7518; text-decoration: underline;">Halloween</span>?
+                Te desafiamos!!!
+            </p>
+        </div>
+
+        <section>
 
             <div class="container-flex mt-5 m-3">
                 <div class="row">
@@ -158,50 +157,51 @@
                     </div>
                 </div>
             </div>
-
-
-
-
-
-
-            </div>
         </section>
     </main>
 
-    <footer class="container-flex row colorBg justify-content-between text-light w-100">
-        <section class="col-md-2 m-3">
-            <h2>Ubicación</h2>
-            <p>Plaza de los Heroes, 5</p>
-            <p>Rancagua, Chile</p>
-        </section>
-        <section class="col-md-2 m-3">
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3301.0634897269847!2d-70.74331382507572!3d-34.17029438473646!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9663433ff904ab3d%3A0xfb9f45f8f926684e!2sPlaza%20de%20Los%20H%C3%A9roes%2C%20Rancagua%2C%20O&#39;Higgins!5e0!3m2!1ses-419!2scl!4v1694388170864!5m2!1ses-419!2scl"
-                width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade">
-            </iframe>
-        </section>
-        <section class="col-md-2 m-3">
-            <h2>Horario</h2>
-            <p>Lunes a Viernes de 9:00 a 19:00</p>
-            <p>Sábados de 9:00 a 15:00</p>
-        </section>
-        <section class="col-md-2 m-3">
-            <h2>Contacto</h2>
-            <p>+56911111111</p>
-            <p>halloween@gmail.com</p>
-        </section>
-        <section class="col-md-2 m-3">
-            <h2>Redes Sociales</h2>
-            <a href="https://www.whatsapp.com/" target="_blank"><i class="fab fa-whatsapp"
-                    style="font-size: 50px; color: #ff7518;"></i></a>
-            <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"
-                    style="font-size: 50px; color: #ff7518"></i></a>
-            <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"
-                    style="font-size: 50px; color: #ff7518"></i></a>
-        </section>
+    <footer>
+        <div class="container-fluid colorBg text-light">
+            <div class="row">
+                <div class="col-sm mt-3">
+                    <h2>Ubicación</h2>
+                    <p>Plaza de los Heroes, 5</p>
+                    <p>Rancagua, Chile</p>
+                </div>
+                <div class="col-sm mt-3">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3301.0634897269847!2d-70.74331382507572!3d-34.17029438473646!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9663433ff904ab3d%3A0xfb9f45f8f926684e!2sPlaza%20de%20Los%20H%C3%A9roes%2C%20Rancagua%2C%20O&#39;Higgins!5e0!3m2!1ses-419!2scl!4v1694388170864!5m2!1ses-419!2scl"
+                        width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+                <div class="col-sm mt-3">
+                    <h2>Horario</h2>
+                    <p>Lunes a Viernes de 9:00 a 19:00</p>
+                    <p>Sábados de 9:00 a 15:00</p>
+                </div>
+                <div class="col-sm mt-3">
+                    <h2>Contacto</h2>
+                    <p>+56911111111</p>
+                    <p>halloween@gmail.com</p>
+                </div>
+                <div class="col-sm mt-3">
+                    <h2>Redes Sociales</h2>
+                    <a href="https://www.whatsapp.com/" target="_blank"><i class="fab fa-whatsapp"
+                            style="font-size: 50px; color: #ff7518;"></i></a>
+                    <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"
+                            style="font-size: 50px; color: #ff7518"></i></a>
+                    <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"
+                            style="font-size: 50px; color: #ff7518"></i></a>
+                </div>
+            </div>
+        </div>
     </footer>
     <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
