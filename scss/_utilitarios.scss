@@ -20,3 +20,12 @@
      color: #fff;
      /* texto en blanco */
    }
+
+   .animLogo {
+     transition: transform 0.5s;
+   }
+
+   .animLogo:hover {
+     transform: rotate(360deg);
+   }
+   
