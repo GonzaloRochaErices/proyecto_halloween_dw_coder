@@ -21,6 +21,7 @@
      /* texto en blanco */
    }
 
+   /* animación logo bruja */
    .animLogo {
      transition: transform 0.5s;
    }
@@ -29,6 +30,7 @@
      transform: rotate(360deg);
    }
    
+   /* arreglo para bug de desborde en animaciones aos */
    .overflowfix{
     overflow: hidden;
    }
