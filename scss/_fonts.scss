@@ -7,6 +7,6 @@
 body {
     font-family: $fuente-jolly;
     src: url($ruta-fuente-jolly);
-    color: map-get($mapa-colores, color-texto-body);
+    color: map-get($mapa-colores, color-texto-body);    
   }
   

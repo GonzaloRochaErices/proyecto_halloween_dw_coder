@@ -51,6 +51,10 @@ body {
   transform: rotate(360deg);
 }
 
+.overflowfix {
+  overflow: hidden;
+}
+
 /* hover */
 .navbar .navbar-nav .nav-link {
   color: white;
